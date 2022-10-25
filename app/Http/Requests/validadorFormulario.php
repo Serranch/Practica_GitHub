@@ -24,8 +24,8 @@ class validadorFormulario extends FormRequest
     public function rules()
     {
         return [
-            'usuario'=>'required',
-            'contraseña'=>'required',
+            'txtusuario'=>'required',
+            'txtcontraseña'=>'required',
         ];
     }
 }
