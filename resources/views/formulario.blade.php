@@ -49,18 +49,18 @@
 
         <div class="mb-3">
           <label class="form-label" >Usuario</label>
-          <input type="text" class="form-control" name="txtusuario">
-          <p>{{$errors->first('txtusuario')}}</p>
+          <input type="text" class="form-control" name="usuario">
+          <p>{{$errors->first('usuario')}}</p>
         </div>
 
         <div class="mb-3">
           <label  class="form-label">Contraseña</label>
-          <input type="password" class="form-control" name="txtcontraseña">
-          <p>{{$errors->first('txtcontraseña')}}</p>
+          <input type="password" class="form-control" name="contraseña">
+          <p>{{$errors->first('contraseña')}}</p>
         </div>
         
         <button type="submit" class="btn btn-primary" {{request()->routeIs('form')}}">Guardar</button>
-        <button {{request()->routeIs('ta')}}type="submit" class="btn btn-primary" >Tabla</button>
+        
       </form>
    
     </div>

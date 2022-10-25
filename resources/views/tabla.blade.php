@@ -37,7 +37,10 @@
             <td>@twitter</td>
           </tr>
         </tbody>
-      </table>
+
+       
+      </table> 
+      <a href="{{route('m')}}"> <button>MENU</button></a>
     </div>
 </body>
 </html>
